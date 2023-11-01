@@ -1,0 +1,67 @@
+/*
+Colors: https://www.color-hex.com/color-palette/1031202
+#c8b4ee
+#fdbbeb
+#c1f2f6
+#ffffff
+#776ab2
+*/
+
+/* Need later: https://www.color-hex.com/color-palette/13735 */
+
+body {
+    font-family: "JetBrains Mono Medium", monospace;
+    font-size: 17px;
+    line-height: 25px;
+    color: #ffffff;
+    background: #fdbbeb;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+header h3 {
+    font-size: 24px;
+}
+
+.standard-container {
+    width: 1200px;
+    margin: 0 auto 20px auto;
+    border: 10px solid #c8b4ee;
+    /*border-top: 20px solid #ad4afd;*/
+    /*border-bottom: 25px solid #ad4afd;*/
+    padding: 0 15px 0 15px;
+    background-color: #776ab2;
+}
+
+header.standard-container {
+    margin-top: 10px;
+    width: 1250px;
+    padding: 15px;
+}
+
+.bi-container {
+    overflow: auto;
+    padding: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+div.bi-container div.standard-container {
+    width: 540px;
+}
+
+div.bi-container div.standard-container.left {
+    margin-left: 350px;
+}
+
+div.bi-container div.standard-container.right {
+    margin-right: 350px;
+}
