@@ -1,10 +1,10 @@
 /*
 Colors: https://www.color-hex.com/color-palette/1031202
-#c8b4ee
-#fdbbeb
-#c1f2f6
-#ffffff
-#776ab2
+#c8b4ee Purple
+#fdbbeb Bink!
+#c1f2f6 Bue
+#ffffff White
+#776ab2 Porple
 */
 
 /* Need later: https://www.color-hex.com/color-palette/13735 */
@@ -14,6 +14,13 @@ body {
     font-size: 17px;
     line-height: 25px;
     color: #ffffff;
+    background: #c1f2f6;
+}
+
+#main-container {
+    margin: 1% 5% 1% 5%;
+    border: 5px solid white;
+    padding: 1%;
     background: #fdbbeb;
 }
 
@@ -25,9 +32,9 @@ header h3 {
     font-size: 24px;
 }
 
-.standard-container {
-    width: 1200px;
-    margin: 0 auto 20px auto;
+div#main-container .standard-container {
+    width: 75%;
+    margin: 1% auto 1% auto;
     border: 10px solid #c8b4ee;
     /*border-top: 20px solid #ad4afd;*/
     /*border-bottom: 25px solid #ad4afd;*/
@@ -35,33 +42,39 @@ header h3 {
     background-color: #776ab2;
 }
 
-header.standard-container {
-    margin-top: 10px;
-    width: 1250px;
+div#main-container header.standard-container {
+    margin: 0 auto 0 auto;
+    width: 90%;
     padding: 15px;
 }
 
-.bi-container {
-    overflow: auto;
-    padding: 0;
+div.underline-title {
+    border: 5px solid white;
+    border-radius: 5px;
+    line-height:
 }
 
-.left {
-    float: left;
-}
+/*.bi-container {*/
+/*    overflow: auto;*/
+/*    padding: 0;*/
+/*}*/
 
-.right {
-    float: right;
-}
+/*.left {*/
+/*    float: left;*/
+/*}*/
 
-div.bi-container div.standard-container {
-    width: 540px;
-}
+/*.right {*/
+/*    float: right;*/
+/*}*/
 
-div.bi-container div.standard-container.left {
-    margin-left: 350px;
-}
+/*div.bi-container div.standard-container {*/
+/*    width: 540px;*/
+/*}*/
 
-div.bi-container div.standard-container.right {
-    margin-right: 350px;
-}
+/*div.bi-container div.standard-container.left {*/
+/*    margin-left: 350px;*/
+/*}*/
+
+/*div.bi-container div.standard-container.right {*/
+/*    margin-right: 350px;*/
+/*}*/
