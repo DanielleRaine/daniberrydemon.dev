@@ -41,12 +41,12 @@ div#main-container .standard-container {
     margin: 1% auto 1% auto;
     border: 10px solid #c8b4ee;
     border-radius: 5px;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
     background-color: #776ab2;
 }
 
 div#main-container header.standard-container {
-
+    padding-bottom: 10px;
 }
 
 div.underline-title {
