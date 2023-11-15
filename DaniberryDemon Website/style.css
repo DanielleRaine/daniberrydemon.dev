@@ -14,6 +14,7 @@ body {
     font-size: 17px;
     color: #ffffff;
     background: #c1f2f6;
+    white-space: nowrap;
 }
 
 header {
@@ -26,6 +27,7 @@ header {
     border-radius: 5px;
     padding: 1%;
     background: #fdbbeb;
+    overflow: clip;
 }
 
 h1 {
@@ -47,6 +49,7 @@ div#main-container .standard-container {
 
 div#main-container header.standard-container {
     padding-bottom: 10px;
+    overflow: clip;
 }
 
 div.underline-title {
@@ -59,27 +62,30 @@ div.standard-container h3 {
     line-height: 0;
 }
 
-/*.bi-container {*/
-/*    overflow: auto;*/
-/*    padding: 0;*/
-/*}*/
+div.standard-container p {
+    /*float: left;*/
+}
 
-/*.left {*/
-/*    float: left;*/
-/*}*/
+div.rectangle {
+    float: right;
+    /*border: 2px solid black;*/
+    /*margin: 0;*/
+    width: 50%;
+    height: 152px;
+    background: white;
+    position: relative;
+    right: -15px;
+    top: -15px;
+}
 
-/*.right {*/
-/*    float: right;*/
-/*}*/
-
-/*div.bi-container div.standard-container {*/
-/*    width: 540px;*/
-/*}*/
-
-/*div.bi-container div.standard-container.left {*/
-/*    margin-left: 350px;*/
-/*}*/
-
-/*div.bi-container div.standard-container.right {*/
-/*    margin-right: 350px;*/
-/*}*/
+header.standard-container div.trapezoid {
+    float: right;
+    position: relative;
+    /*right: 0;*/
+    width: 60%;
+    /*border-bottom: 30px solid transparent;*/
+    border-Top: 152px solid white;
+    border-left: 180px solid transparent;
+    top: -15px;
+    right: -15px;
+}

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcc7f1e6-5ccd-42d9-802c-f1d631fa7cda" name="Changes" comment="Moar changes!!" />
+    <list default="true" id="fcc7f1e6-5ccd-42d9-802c-f1d631fa7cda" name="Changes" comment="Moar changes!!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaniberryDemon Website/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/DaniberryDemon Website/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DaniberryDemon Website/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/DaniberryDemon Website/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/My Files/Projects/Code/First-Website&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -55,6 +60,8 @@
       <workItem from="1698439168635" duration="151000" />
       <workItem from="1698439359235" duration="331000" />
       <workItem from="1699903023191" duration="4687000" />
+      <workItem from="1700018536923" duration="247000" />
+      <workItem from="1700019525674" duration="9737000" />
     </task>
     <servers />
   </component>
