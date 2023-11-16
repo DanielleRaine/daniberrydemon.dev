@@ -30,7 +30,7 @@ header {
     overflow: clip;
 }
 
-h1 {
+header h1 {
     font-size: 40px;
 }
 
@@ -67,25 +67,27 @@ div.standard-container p {
 }
 
 div.rectangle {
-    float: right;
     /*border: 2px solid black;*/
     /*margin: 0;*/
-    width: 50%;
-    height: 152px;
+    width: 60%;
+    height: 154px;
     background: white;
     position: relative;
-    right: -15px;
-    top: -15px;
+    /*right: -15px;*/
+    /*top: -15px;*/
+    left: 40%;
+    float: left;
 }
 
-header.standard-container div.trapezoid {
-    float: right;
-    position: relative;
-    /*right: 0;*/
-    width: 60%;
-    /*border-bottom: 30px solid transparent;*/
-    border-Top: 152px solid white;
-    border-left: 180px solid transparent;
-    top: -15px;
-    right: -15px;
-}
+/*header.standard-container div.trapezoid {*/
+/*    float: right;*/
+/*    position: relative;*/
+/*    !*right: 0;*!*/
+/*    width: 60%;*/
+/*    !*border-bottom: 30px solid transparent;*!*/
+/*    border-Top: 152px solid white;*/
+/*    border-left: 180px solid transparent;*/
+/*    top: -15px;*/
+/*    !*right: -15px;*!*/
+/*    !*margin-left: 150px;*!*/
+/*}*/
