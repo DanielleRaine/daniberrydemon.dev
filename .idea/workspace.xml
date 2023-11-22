@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fcc7f1e6-5ccd-42d9-802c-f1d631fa7cda" name="Changes" comment="Trapezoid!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <workItem from="1700107300306" duration="4490000" />
       <workItem from="1700180559563" duration="6636000" />
       <workItem from="1700330645579" duration="2884000" />
-      <workItem from="1700629109916" duration="8123000" />
+      <workItem from="1700629109916" duration="8742000" />
     </task>
     <task id="LOCAL-00001" summary="Trapezoid!">
       <option name="closed" value="true" />
