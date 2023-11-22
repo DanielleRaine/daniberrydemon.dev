@@ -47,6 +47,7 @@ div#main-container .standard-container {
     border-radius: 5px;
     padding: 15px 15px 0 15px;
     background-color: #776ab2;
+    overflow: clip;
 }
 
 div#main-container header.standard-container {
