@@ -7,11 +7,9 @@ Colors: https://www.color-hex.com/color-palette/1031202
 #776ab2 Porple
 */
 
-/* Need later: https://www.color-hex.com/color-palette/13735 */
-
 body {
-    font-family: "JetBrains Mono Medium", monospace;
-    font-size: 17px;
+    font-family: monospace;
+    font-size: 18px;
     color: #ffffff;
     background: #c1f2f6;
     margin: 0;
@@ -19,51 +17,36 @@ body {
 
 #main-container {
     margin: 18px 90px 18px 90px;
-    border: 8px solid white;
-    border-radius: 5px;
-    padding: 15px;
+    border: 18px solid white;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
     background: #fdbbeb;
     overflow: clip;
 }
 
+#title-container {
+    position: absolute;
+    margin: 5px 15px 0 15px;
+}
+
 .standard-container {
-    width: 90%;
-    margin: 15px auto 15px auto;
-    border: 10px solid #c8b4ee;
-    border-radius: 5px;
-    padding: 15px 15px 5px 15px;
+    margin: 15px 60px 15px 60px;
+    border: 12px solid #c8b4ee;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
     background-color: #776ab2;
     overflow: clip;
 }
 
-div.standard-container h3 {
-    line-height: 0;
-
-}
-
-div.standard-container h4 {
-    line-height: 5px;
-
-}
-
 header.standard-container {
     position: relative;
-    line-height: 25px;
     white-space: nowrap;
     padding-top: 0;
     padding-bottom: 0;
 }
 
-header.standard-container h1 {
-    font-size: 40px;
-}
-
-header.standard-container h3 {
-    font-size: 24px;
-}
-
-.underline-title {
-    border: 2px solid white;
+.underline-h {
+    border: 4px solid white;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -77,10 +60,5 @@ header.standard-container h3 {
 
 .social-logos {
     display: inline-block;
-    margin-bottom: 10px;
-}
-
-.list-container {
-    position: relative;
-    right: 10px
+    margin: 0 5px 5px;
 }
