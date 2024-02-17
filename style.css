@@ -9,7 +9,7 @@ Colors: https://www.color-hex.com/color-palette/1031202
 
 body {
     font-family: monospace;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     background: #c1f2f6;
     margin: 0;
@@ -45,10 +45,11 @@ header.standard-container {
     padding-bottom: 0;
 }
 
-.underline-h {
-    border: 4px solid white;
-    border-radius: 5px;
-    margin-bottom: 20px;
+hr {
+    color: transparent;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 10px;
 }
 
 .trapezoid {
@@ -60,5 +61,5 @@ header.standard-container {
 
 .social-logos {
     display: inline-block;
-    margin: 0 5px 5px;
+    margin: 5px 5px;
 }
