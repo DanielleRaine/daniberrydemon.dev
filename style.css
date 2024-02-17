@@ -1,0 +1,65 @@
+/*
+Colors: https://www.color-hex.com/color-palette/1031202
+#c8b4ee Purple
+#fdbbeb Bink!
+#c1f2f6 Bue
+#ffffff White
+#776ab2 Porple
+*/
+
+body {
+    font-family: monospace;
+    font-size: 16px;
+    color: #ffffff;
+    background: #c1f2f6;
+    margin: 0;
+}
+
+#main-container {
+    margin: 18px 90px 18px 90px;
+    border: 18px solid white;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    background: #fdbbeb;
+    overflow: clip;
+}
+
+#title-container {
+    position: absolute;
+    margin: 5px 15px 0 15px;
+}
+
+.standard-container {
+    margin: 15px 60px 15px 60px;
+    border: 12px solid #c8b4ee;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    background-color: #776ab2;
+    overflow: clip;
+}
+
+header.standard-container {
+    position: relative;
+    white-space: nowrap;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+hr {
+    color: transparent;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.trapezoid {
+    position: relative;
+    border-Top: 150px solid white;
+    border-left: 180px solid transparent;
+    left: 500px;
+}
+
+.social-logos {
+    display: inline-block;
+    margin: 5px 5px;
+}
